@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: cadetblue;
+}
+
+.input-area {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+li {
+  padding: 8px;
+  margin: 16px;
+  border-bottom: 1px solid silver;
+  /* Todoの内容と削除ボタンとの間隔を開けるCSSを書こう！ */
+
+}
+
+/* ボタンの色を赤色にしたり、ホバー時のボタンの色を指定しよう！ */
