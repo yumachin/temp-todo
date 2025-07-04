@@ -138,18 +138,20 @@ li {
   justify-content: space-between;
 }
 
-.buttons {
-  display: flex;
-  gap: 16px;
-}
 
 /* 削除ボタンの色を赤色にしたり、ホバー時のボタンの色を指定しよう！ */
 .delete-button {
   background-color: red;
 }
 
-/* 編集ボタンと削除ボタンとの間隔を開けるCSSを書こう！ */
 .delete-button:hover {
   background-color: darkred;
+}
+
+
+/* 編集ボタンと削除ボタンとの間隔を開けるCSSを書こう！ */
+.buttons {
+  display: flex;
+  gap: 16px;
 }
 ```
