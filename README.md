@@ -132,6 +132,7 @@ li {
   padding: 8px;
   margin: 16px;
   border-bottom: 1px solid silver;
+  /* Todoの内容と削除ボタンとの間隔を開けるCSSを書こう！ */
   width: 30vw;
   display: flex;
   justify-content: space-between;
@@ -142,10 +143,12 @@ li {
   gap: 16px;
 }
 
+/* 削除ボタンの色を赤色にしたり、ホバー時のボタンの色を指定しよう！ */
 .delete-button {
   background-color: red;
 }
 
+/* 編集ボタンと削除ボタンとの間隔を開けるCSSを書こう！ */
 .delete-button:hover {
   background-color: darkred;
 }
