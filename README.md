@@ -126,3 +126,27 @@ function App() {
 
 export default App
 ```
+
+```
+li {
+  padding: 8px;
+  margin: 16px;
+  border-bottom: 1px solid silver;
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.delete-button {
+  background-color: red;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+```
